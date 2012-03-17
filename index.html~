@@ -8,7 +8,9 @@
 <body>
 <div id=tytul><p>Moja strona na Github'e</div></p>
 
-Możecie mnie śledzić na moim blogu <a href="http://roberttomczak.github.com/myblog"> tutaj</a>
+Możecie mnie śledzić na moim blogu <a http://roberttomczak.github.com/myblog/> tutaj</a>
+
+
 
 
 
