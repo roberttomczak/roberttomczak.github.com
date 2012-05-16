@@ -15,13 +15,20 @@ text-align:center;
 
 list-style:none;
 border: 1px solid black; 
-background:black;
-color: white;
+
 }
 
 #nav ul li{
 
 display:inline;
+background:black;
+color:white;
+}
+
+#nav ul li a:hover{
+background:white;
+color:black;
+
 }
 #tytul {
 color: #365900;
