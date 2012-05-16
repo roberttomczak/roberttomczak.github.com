@@ -5,6 +5,20 @@ background: #f2825b;
 
 }
 
+#nav{
+background:black;
+color: white;
+display: inline;
+text-align:center;
+
+}
+
+#nav ul li{
+
+border: 1px solid black; 
+
+}
+
 #tytul {
 color: #365900;
 font-family: helvetica, arial, sans-serif;
