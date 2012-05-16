@@ -43,7 +43,7 @@ ul {
 }
 
 ul li {
-    float: left;
+    /*float: left;*/
     border-width: 0 1px 1px 1px;
     border-style: solid;
     border-color: transparent #25b #25b #9ce;
