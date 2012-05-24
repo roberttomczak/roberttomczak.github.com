@@ -6,4 +6,4 @@ Wczoraj utworzylem repozytorium roberttomczak.github.com i czekalem az mi sie st
 ##Zmiany
 
 ---------------------
-Znowy dlugo czekam na aktualizacje strony
+Utworzenie strony z pomoca Twitter Bootstrapa
