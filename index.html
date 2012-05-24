@@ -2,25 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Ufo is getting bored</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="/menu_assets/styles.css" rel="stylesheet" type="text/css">
+    <title>Ufo is getting interested</title>
+    
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <style type="text/css">
+    body{
+    	padding-top: 60px;
+    	padding-bottom:40px;
+
+    }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
   </head>
 <body>
-<div id=tytul><p>Moja stara strona na Github'e</p></div>
-<div class="cssmenu">
-<ul>
-  <li><a href="http://www.inf.ug.edu.pl">Moje Studio</a></li>
-  <li><a href="http://net.tutsplus.com">Nettuts</a></li>
-  <li><a href="http://www.github.com">Github</a></li>
-</ul>
+<!-- <div id=tytul><p>Moja stara strona na Github</p></div> -->
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+         	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+          	</a>
+          	<a class="brand" href="./index.html">Moja Strona</a>
+          	<div class="nav-collapse">
+            	<ul class="nav">
+	            	<li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+	             	<li><a href="#about"><i class="icon-question-sign icon-white"></i> About</a></li>
+	             	<li><a href="#contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+					<li><a href="#portfolio"><i class="icon-user icon-white"></i> Portfolio</a></li>
+	    		</ul>
+			    <ul class="nav pull-right">
+					<li class="dropdown">
+						<a href="#menu1" class="dropdown-toggle" data-toggle="dropdown">LINKI<b class="caret"></b></a>
+					   	<ul class="dropdown-menu">
+			     			<li><a href="http://niezdasz.pl">Forum</a></li>
+			      			<li><a href="http://inf.ug.edu.pl">Informatyka</a></li>
+			      			<li><a href="http://mfi.ug.edu.pl">Wydzial</a></li>
+			      			<li class="divider"></li>
+			      			<li><a href="http://github.com">Github</a></li>
+			    		</ul>
+					</li>
+	     		</ul>
+			<a class="btn btn-primary pull-right" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap Home</a>
+          	</div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+<div class="container">
+	<div class="hero-unit">
+		<h1>Witam na mojej stronie</h1>
+		<p>Strona zostala zbudowana dzieki Bootstrapowi z Twitter'a</p>
+	</div>
+	<div class="row">
+		<div class="span8">
+			<h2>Heading</h2>
+		</div>
+	</div>
 
 
 </div>
-<div id="container">
-
-<p>17:59<p>
-
-</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
