@@ -1,0 +1,36 @@
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Filmy", 'Popularnosc'],
+          ["The Twilight Saga: Breaking Dawn Part 1",  87521],
+          ["The Hunger Games",  79340],
+          ["Marvel's The Avengers",  64356],
+          ["Harry Potter and the Deathly Hallows: Part II",  33680],
+		  ["The Muppets",  29002],
+		  ["Captain America: The First Avenger",  28406],
+		  ["Avatar",  23238],
+		  ["Thor",  23207],
+		  ["The Hangover",  22709],
+		  ["Titanic",  20791]
+        ]);
+
+        var options = {
+          title: '10 Najpopularniejszych filmow',
+          hAxis: {title: 'Filmy', titleTextStyle: {color: 'black'}}
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
