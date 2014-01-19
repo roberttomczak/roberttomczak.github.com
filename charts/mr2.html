@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Type', 'Number of airports'],
+          ['Europe', 1759],
+          ['US/Canada', 1857],
+          ['South America', 388],
+          ['Australia', 211],
+          ['New Zealand', 52],
+		  ['None', 1257],
+		  ['Unknown', 2135]
+        ]);
+
+        var options = {
+          title: 'Ilosc lotnisk w danym typie czasu letniego',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="piechart_3d" style="width: 1000px; height: 600px;"></div>
+  </body>
+</html>
